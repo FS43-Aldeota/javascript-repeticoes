@@ -7,8 +7,8 @@
 </head>
 <body>
     <select id="dia"></select>
-    <select id="mes"></select>
-    <select id="ano"></select>
+    <select id="mes" onchange="atualizarDias(event.target.value)"></select>
+    <select id="ano" onchange="atualizarAno()"></select>
     
     <script src="index.js"></script>
 </body>
